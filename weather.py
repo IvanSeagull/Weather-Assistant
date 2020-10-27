@@ -1,3 +1,8 @@
+#`````````````````````````````
+#
+#    Developed by Ivan Seagull
+#
+#`````````````````````````````
 import pyowm
 
 city = input("Your city:    ")
