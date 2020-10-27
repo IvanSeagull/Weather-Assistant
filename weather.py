@@ -1,5 +1,5 @@
 import pyowm
-#https://github.com/csparpa/pyowm
+
 city = input("Your city:    ")
 owm = pyowm.OWM('6d00d1d4e704068d70191bad2673e0cc', language='ru') #Your language
 observation = owm.weather_at_place(city)
